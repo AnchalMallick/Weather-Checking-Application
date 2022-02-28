@@ -1,6 +1,6 @@
 # Weather-Checking-Application
 
-Weather Checker Web Application | Tech stack used: HTML, CSS, Javascript, NodeJS, ExpressJs, API Integration
+Weather Checker Web Application | Tech stack used: HTML, CSS, Bootstrap, Javascript, NodeJS, ExpressJs, API Integration
 
 DONE:
 • Developed a website that would allow the user to input any location(city name) and display the current weather conditions in real-time
