@@ -20,7 +20,7 @@ app.get("/", function(req, res) { //create a root route get method
 
 app.post("/", function(req, res) { //create a post method that handles post requests to server at root route
   const query = req.body.cityName;
-  const apiKey = "fe995bcb0f27010054d62e872d766da6";
+  const apiKey = <API Key>;
   const unit = "metric";
   const url = "https://api.openweathermap.org/data/2.5/weather?q=" + query + "&units=" + unit + "&appid=" + apiKey;
   https.get(url, function(response) { //make http get request to the url(external server) to fetch some data
